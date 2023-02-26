@@ -70,7 +70,7 @@ class App extends React.Component {
           <div className="bg-light text-black col-sm-4 container" id="quote-box">
             <div className="row text justify-content-center">
               <div className="text-quote-container col-sm-10">
-                <p className={"text-"+ colors[this.state.colorIndex] + " text-center"} id="text"><i>{Object.values(quotes)[this.state.quoteIndex]}</i></p>
+                <p className={"text-"+ colors[this.state.colorIndex] + " text-center"} id="text"><i class="fa-solid fa-quote-left"></i><i>{Object.values(quotes)[this.state.quoteIndex]}</i></p>
                </div>
               <div className="author-container d-flex flex-row-reverse">
                 <p className={"text-" + colors[this.state.colorIndex]} id="author">-{Object.keys(quotes)[this.state.quoteIndex]}</p>
