@@ -78,12 +78,12 @@ class App extends React.Component {
             </div>
             <div className="row test2">
               <div className="d-inline-flex justify-content-between align-items-end col col-sm-3">
-                <a id="tweet-quote" href="twitter.com/intent/tweet"><button className={"btn btn-" + colors[this.state.colorIndex]}><i className="fa-brands fa-twitter"></i></button></a>
-                <button className={"btn btn-" + colors[this.state.colorIndex]}><i className="fa-brands fa-tumblr"></i></button>
+                <a id="tweet-quote" href="twitter.com/intent/tweet"><button className={"btn btn-" + colors[this.state.colorIndex]}><i className="text-white fa-brands fa-twitter"></i></button></a>
+                <button className={"text-white btn btn-" + colors[this.state.colorIndex]}><i className="text-white fa-brands fa-tumblr"></i></button>
               </div>
 
               <div className="d-inline-flex align-items-end flex-row-reverse col col-sm-9">
-                <button className={"btn btn-" + colors[this.state.colorIndex]} id="new-quote" onClick={this.clickHandler}>Create <i className="fa-solid fa-paper-plane " ></i></button>
+                <button className={"text-white btn btn-" + colors[this.state.colorIndex]} id="new-quote" onClick={this.clickHandler}>Create <i className="text-white fa-solid fa-paper-plane " ></i></button>
               </div>
             </div>
           </div>
